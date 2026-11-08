@@ -1,0 +1,6 @@
+{
+  "model": "ensemble",
+  "iterations": 1,
+  "TTT_mean_abs_error": 0.002849469032920088,
+  "tolerance": 0.003
+}

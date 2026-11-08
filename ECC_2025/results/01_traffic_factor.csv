@@ -1,0 +1,7 @@
+DoS,description,AADT (veh/day),f_a  (Eq. 2),f_a^rho (in b_a),f_hat (in J_E)
+6,"Dedicated bike lanes, fully separated",14400,0.84,0.9931,0.0
+5,"Shared with pedestrians, separated from cars",16000,1.705,1.0216,0.00022
+4,"Mixed traffic, 30 km/h, no bike lane",960,2.194,1.0319,0.00035
+3,Shared roads with cycling pictograms,3120,19.023,1.125,0.00464
+2,Painted bike lanes,6912,843.573,1.3093,0.21507
+1,Unmarked shared car-bike lanes,8448,3919.215,1.3923,1.0

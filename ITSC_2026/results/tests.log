@@ -1,0 +1,23 @@
+﻿[PASS] all OD pairs reached 
+[PASS] AON flow conservation (incident flow = 2 visits - path ends) 
+[PASS] exposure = sum phi f d 
+[PASS] Laplacian symmetric 
+[PASS] Laplacian eigenvalues in [0, 2] (1.21e-04, 1.9997)
+[PASS] k = |V|: E^clust = E^orig and Phi^clust = Phi^orig 
+[PASS] Theorem 2 (corrected): clustered demand = original demand 
+[PASS] lifting never downgrades 
+[PASS] lifted cost = sum of object costs 
+[PASS] Lyon: CC gives exactly |V_Grenoble| clusters 
+[PASS] Lyon: CC objects DoS-homogeneous (eps = 0) (k-means: 7.6 % mixed objects)
+[PASS] Lyon: CC clusters connected (k-means: 1070 disconnected)
+[PASS] Lyon: CC preserves exposure better than k-means (CC -1.48 %, k-means -15.52 %)
+[PASS] Strasbourg: CC gives exactly |V_Grenoble| clusters 
+[PASS] Strasbourg: CC objects DoS-homogeneous (eps = 0) (k-means: 10.2 % mixed objects)
+[PASS] Strasbourg: CC clusters connected (k-means: 874 disconnected)
+[PASS] Strasbourg: CC preserves exposure better than k-means (CC -3.02 %, k-means +14.38 %)
+[PASS] GA design within budget 
+[PASS] GA not worse than its greedy seed 
+[PASS] GW(H, H) < GW(H, Lyon) (0.050 < 0.300)
+[PASS] transfer (Problem 3) within budget 
+
+21/21 tests passed

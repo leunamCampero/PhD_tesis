@@ -1,0 +1,4 @@
+﻿[     4.3 s] Grenoble     6773 nodes   9017 arcs   418.2 km  B_max  158.2 M EUR  E 1.107e+09  arcs used 55.4 %
+[    10.1 s] Lyon        11857 nodes  18418 arcs  1332.4 km  B_max  548.1 M EUR  E 6.931e+09  arcs used 35.8 %
+[    14.7 s] Strasbourg  11417 nodes  16503 arcs  1371.3 km  B_max  538.8 M EUR  E 3.496e+09  arcs used 39.4 %
+[    33.2 s] done

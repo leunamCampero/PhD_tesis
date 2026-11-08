@@ -1,0 +1,152 @@
+\documentclass[11pt]{letter}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+
+\signature{%
+\vspace{-1cm} % Adjust vertical space as needed
+Manuel Campero Jurado\\
+Postdoctoral Research Fellow\\
+IFP Energies nouvelles\\
+Rueil-Malmaison, France\\
+\href{mailto:manuel.campero-jurado@inria.fr}
+{manuel.campero-jurado@ifpen.fr}
+}
+
+
+\date{\today}
+
+\begin{document}
+
+\begin{letter}{%
+Editor-in-Chief\\
+Prof. Simona Sacone, EIC, Transactions on ITS\\
+Dept. of Computer Science, Bioengineering, Robotics and Systems Engineering\\
+University of Genova, Italy\\
+\href{mailto:simona.sacone@unige.it}{simona.sacone@unige.it}
+}
+
+\opening{Dear Professor Sacone,}
+
+\textbf{Subject: Submission to the Special Issue on
+``Novel Methods for Modeling and Control of Mobility and Traffic Systems''}
+
+On behalf of my co-authors, I am writing to express our interest in
+submitting the manuscript entitled
+\emph{``Justice-informed Cycling Infrastructure Upgrade via
+Multi-modal Bi-level Optimization''}
+for consideration in the Special Issue on
+\emph{``Novel Methods for Modeling and Control of Mobility and Traffic
+Systems''} of the \emph{IEEE Transactions on Intelligent Transportation
+Systems}.
+
+The proposed manuscript develops an integrated framework for planning
+cycling-infrastructure upgrades while accounting for cyclist safety,
+car-network performance, travelers' behavioral responses, and
+distributional justice. The paper constitutes a substantial extension
+and integration of several works presented at major international
+conferences in control and intelligent transportation systems.
+
+\begin{itemize}
+    \item \textbf{ECC 2025} --- \textit{Improving Urban Cycling Safety and
+    Comfort through Optimized Infrastructure Upgrades}:
+    We introduced a bi-level optimization framework for reducing cyclists'
+    exposure to motorized traffic through targeted cycling-infrastructure
+    upgrades. At the lower level, cycling demand was redistributed using an
+    all-or-nothing assignment based on a cyclist-specific generalized
+    distance incorporating geographical distance, traffic exposure, road
+    slope, and angular changes. At the upper level, infrastructure upgrades
+    were selected under a fixed budget to minimize aggregate cyclist
+    exposure.
+
+    \item \textbf{CDC 2025} --- \textit{On Transport Justice and Safety in
+    Bicycle Network Design Optimization}:
+    We extended the framework by comparing utilitarian and sufficientarian
+    principles of transport justice. The utilitarian formulation minimized
+    aggregate cyclist exposure, whereas the sufficientarian formulation
+    sought to maximize the number of cyclists reaching a minimum acceptable
+    safety level. The results showed that the sufficientarian approach could
+    substantially improve conditions for the least-protected users while
+    maintaining aggregate network performance close to, and in some cases
+    better than, that of the utilitarian solution.
+
+    \item \textbf{ITSC 2025} --- \textit{Safety-Oriented Design of Cycling
+    Infrastructure Minimizing Impact on Vehicular Traffic}:
+    We incorporated the interaction between cycling-infrastructure
+    improvements and vehicular traffic. In particular, we analyzed how
+    reallocating road space to safer cycling facilities may reduce car-road
+    capacity and increase car travel times. This work assessed car traffic
+    before and after the upgrades, but it did not yet model an endogenous
+    modal shift from cars to bicycles.
+\end{itemize}
+The proposed journal manuscript goes considerably beyond these conference contributions by integrating them into a unified multimodal network-design framework. It first introduces a behavioral modal-shift model to represent changes in bicycle and car demand following cycling-network improvements. Using mobility data from the French National Institute of Statistics and Economic Studies and historical OpenStreetMap data for Grenoble, we examine the ten-year evolution of cycling modal share in relation to generalized cyclist distance, which accounts for geographical distance, traffic exposure, road slope, turning effort, and infrastructure quality. The analysis indicates a positive association between reduced generalized cyclist distance and increased cycling modal share, while recognizing that infrastructure is only one of several factors influencing mode choice. The manuscript also allows drivers to adapt their routes to capacity reductions and congestion changes through a graph-neural-network surrogate that predicts car user-equilibrium flows and projects them onto a feasible set satisfying flow-conservation constraints, thereby enabling efficient repeated evaluations within the bi-level optimization. Finally, it extends the comparison between utilitarian and sufficientarian principles to both transport modes: the utilitarian formulation minimizes aggregate cyclist exposure and total system travel time, whereas the sufficientarian formulation seeks to guarantee minimum exposure-related protection for cyclists and acceptable travel-time thresholds for bicycle and car users. Although the utilitarian approach generally achieves the largest aggregate exposure reduction, the sufficientarian solution remains close in overall performance while improving conditions for disadvantaged users and areas. By combining transportation-network modeling, bi-level optimization, traffic assignment, machine-learning-based surrogate modeling, modal-shift analysis, and justice-oriented mobility planning, the manuscript provides both methodological contributions and a city-scale application to Grenoble’s multimodal transport network.
+% The proposed journal manuscript goes considerably beyond these
+% conference contributions by integrating their different components into
+% a unified multimodal network-design framework. First, it introduces a
+% behavioral modal-shift model to represent changes in bicycle and car
+% demand following improvements to the cycling network. Motivated by
+% mobility data from the French National Institute of Statistics and
+% Economic Studies for the Grenoble metropolitan area, we examine
+% the evolution of cycling modal share over a ten-year period and its
+% relationship with changes in the generalized cyclist distance derived
+% from historical OpenStreetMap data. This generalized distance extends
+% geographical distance by accounting for traffic exposure, road slope,
+% turning effort, and cycling-infrastructure quality. The empirical
+% analysis indicates a positive association between improved cycling
+% conditions, reflected by a reduction in generalized cyclist distance,
+% and an increase in cycling modal share in Grenoble. At the same time,
+% the manuscript explicitly acknowledges that cycling-infrastructure
+% improvements are only one among several factors that may influence
+% travel-mode choice.
+% Second, the journal manuscript allows drivers to modify their routes in
+% response to capacity reductions and congestion changes. To make this
+% calculation tractable within the upper-level infrastructure-design
+% problem, we develop a graph-neural-network surrogate for predicting car
+% user-equilibrium flows. The surrogate is trained so that its predictions
+% can be projected onto a feasible set satisfying network flow-conservation
+% constraints. This provides a computationally efficient approximation of
+% drivers' equilibrium responses during the repeated evaluations required
+% by the bi-level optimization.
+% Third, the manuscript extends the comparison between utilitarian and
+% sufficientarian principles to both transport modes. The utilitarian
+% formulation minimizes aggregate cyclist exposure and total system travel
+% time. In contrast, the sufficientarian formulation seeks to ensure that
+% cyclists attain a minimum level of exposure-related protection and that
+% bicycle and car trips remain below acceptable travel-time thresholds.
+% Our results show that, although the utilitarian formulation generally
+% achieves the greatest aggregate reduction in cyclist exposure, the
+% sufficientarian solution remains close in overall performance while
+% providing important distributional benefits. In particular, it improves
+% conditions for users and geographical areas that may receive little or
+% no benefit under a purely utilitarian perspective, while limiting the number
+% of cyclists and drivers experiencing insufficient safety or excessive
+% travel times.
+
+We believe that the manuscript is particularly well aligned with the
+scope of the Special Issue because it combines transportation-network
+modeling, bi-level control and optimization, traffic assignment,
+machine-learning-based surrogate modeling, modal-shift analysis, and
+justice-oriented mobility planning. The work provides both methodological
+contributions and a city-scale application to the multimodal transport
+network of Grenoble, France.
+
+We would be honored to submit this work to the
+\emph{IEEE Transactions on Intelligent Transportation Systems}, and it
+would be a privilege to receive the assessment and feedback of the
+journal's editors and reviewers. We would be grateful for your opinion
+regarding the suitability of the proposed manuscript for the Special
+Issue.
+
+Thank you very much for your time and consideration.
+
+\closing{Sincerely,}
+\vspace{-5cm} % Adjust vertical space as needed
+\noindent
+\end{letter}
+
+\end{document}

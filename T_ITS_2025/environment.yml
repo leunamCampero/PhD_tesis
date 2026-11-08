@@ -1,0 +1,25 @@
+# Conda environment to reproduce the T-ITS paper results.
+#   conda env create -f environment.yml
+#   conda activate cycling-tits
+#   python -m ipykernel install --user --name cycling-tits
+name: cycling-tits
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pygmo=2.19            # standard genetic algorithm (SGA) used in the paper
+  - networkx=3.4
+  - numpy=1.26
+  - scipy=1.13
+  - pandas=2.2
+  - matplotlib=3.9
+  - statsmodels=0.14
+  - scikit-learn=1.5
+  - scikit-optimize=0.10  # Bayesian optimisation (gp_minimize)
+  - tqdm
+  - jupyterlab
+  - ipykernel
+  - nbconvert
+  - pip
+  - pip:
+      - sdv==1.17.4       # Synthetic Data Vault (only needed to regenerate synthetic samples)

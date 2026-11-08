@@ -1,0 +1,6 @@
+﻿  network  k             E    Phi  eps_used  GW_H_G4  kernel_distance
+0       G  9  3.301432e+06  120.0       NaN      NaN              NaN
+1      G~  4  3.302708e+06  131.0       0.0      NaN              NaN
+2      G~  3  1.121517e+07   89.0       4.0      NaN              NaN
+3      G~  2  2.522656e+07   73.0       5.0      NaN              NaN
+4       H  4  3.818259e+06   43.0       NaN    0.207            0.001

@@ -1,0 +1,93 @@
+{
+  "n_samples": 1000,
+  "n_train_val": 850,
+  "n_test": 150,
+  "model": "ridge_10",
+  "validation_R2": {
+    "ridge_0.1": 0.4321638088157621,
+    "ridge_1": 0.43262762949095857,
+    "ridge_10": 0.4355909642563479,
+    "mlp": 0.1806782363839895
+  },
+  "pca_components": 60,
+  "pca_explained": 0.8818548164162598,
+  "test_projected": {
+    "MAE": 7.202882831185346,
+    "RMSE": 22.250093320180447,
+    "R2": 0.991604395504895,
+    "within_5pct": 0.657034657996539,
+    "within_10pct": 0.7955455356373452,
+    "p95_abs_error": 41.77939349193572,
+    "p99_abs_error": 103.65631789320548
+  },
+  "test_raw": {
+    "MAE": 7.221435559419098,
+    "RMSE": 22.266885905833725,
+    "R2": 0.9915917180650984,
+    "within_5pct": 0.657034657996539,
+    "within_10pct": 0.7955455356373452,
+    "p95_abs_error": 41.81700525323387,
+    "p99_abs_error": 103.71782160111246
+  },
+  "test_R2_of_deviation": 0.4550916567413905,
+  "raw_max_conservation_violation_veh_h": 6.558366475116113e-12,
+  "surrogate_only": {
+    "TTT_rel_error": {
+      "mean": 0.02162860107868731,
+      "mean_abs": 0.021635961722468514,
+      "max_abs": 0.09351535210506579
+    },
+    "mean_od_time_rel_error_mean_abs": 0.004599081619664401,
+    "J_TI_car_abs_error_mean": 0.0011191524972662926
+  },
+  "surrogate_plus_correction": {
+    "TTT_rel_error": {
+      "mean": 0.0025526976100090706,
+      "mean_abs": 0.002616709214637955,
+      "max_abs": 0.010498120762331297
+    },
+    "mean_od_time_rel_error_mean_abs": 0.001743936969520737,
+    "J_TI_car_abs_error_mean": 0.0002636064313257179
+  },
+  "correction_iterations": 3,
+  "correction_seconds": 9.128356154759725,
+  "learning_curve": [
+    {
+      "n_train": 100,
+      "R2": 0.9893827958816138,
+      "R2_deviation": 0.310900947089469,
+      "model": "ridge_10"
+    },
+    {
+      "n_train": 200,
+      "R2": 0.9898095647742566,
+      "R2_deviation": 0.3385999567772019,
+      "model": "ridge_10"
+    },
+    {
+      "n_train": 400,
+      "R2": 0.9903227395875887,
+      "R2_deviation": 0.3719070566409246,
+      "model": "ridge_0.1"
+    },
+    {
+      "n_train": 700,
+      "R2": 0.9912746058761039,
+      "R2_deviation": 0.43368698953092866,
+      "model": "ridge_10"
+    },
+    {
+      "n_train": 850,
+      "R2": 0.991604395504895,
+      "R2_deviation": 0.4550916567413905,
+      "model": "ridge_10"
+    }
+  ],
+  "sample_stats": {
+    "mean_ue_iterations": 53.426,
+    "mean_ue_seconds": 97.0954571454525,
+    "cpu_hours": 26.97096031818125,
+    "max_gap": 0.0001999770861669943
+  },
+  "minutes": 29.83192085425059
+}

@@ -1,0 +1,25 @@
+﻿[     3.7 s] Lyon       Transfer             beta 0.0010: E/E0 = 0.985
+[     4.6 s] Lyon       Transfer (k-means)   beta 0.0010: E/E0 = 0.990
+[     5.5 s] Lyon       Transfer+            beta 0.0010: E/E0 = 0.693
+[     6.5 s] Lyon       Transfer             beta 0.0025: E/E0 = 0.958
+[     7.5 s] Lyon       Transfer (k-means)   beta 0.0025: E/E0 = 0.978
+[     8.3 s] Lyon       Transfer+            beta 0.0025: E/E0 = 0.476
+[     9.2 s] Lyon       Transfer             beta 0.0050: E/E0 = 0.873
+[    10.1 s] Lyon       Transfer (k-means)   beta 0.0050: E/E0 = 0.951
+[    11.0 s] Lyon       Transfer+            beta 0.0050: E/E0 = 0.283
+[    11.9 s] Lyon       Transfer             beta 0.0100: E/E0 = 0.737
+[    12.8 s] Lyon       Transfer (k-means)   beta 0.0100: E/E0 = 0.900
+[    13.6 s] Lyon       Transfer+            beta 0.0100: E/E0 = 0.198
+[    16.2 s] Strasbourg Transfer             beta 0.0010: E/E0 = 0.955
+[    17.1 s] Strasbourg Transfer (k-means)   beta 0.0010: E/E0 = 0.997
+[    18.0 s] Strasbourg Transfer+            beta 0.0010: E/E0 = 0.854
+[    18.8 s] Strasbourg Transfer             beta 0.0025: E/E0 = 0.949
+[    19.7 s] Strasbourg Transfer (k-means)   beta 0.0025: E/E0 = 0.956
+[    20.5 s] Strasbourg Transfer+            beta 0.0025: E/E0 = 0.765
+[    21.4 s] Strasbourg Transfer             beta 0.0050: E/E0 = 0.917
+[    22.2 s] Strasbourg Transfer (k-means)   beta 0.0050: E/E0 = 0.942
+[    23.0 s] Strasbourg Transfer+            beta 0.0050: E/E0 = 0.665
+[    23.9 s] Strasbourg Transfer             beta 0.0100: E/E0 = 0.887
+[    24.7 s] Strasbourg Transfer (k-means)   beta 0.0100: E/E0 = 0.916
+[    25.5 s] Strasbourg Transfer+            beta 0.0100: E/E0 = 0.524
+[    25.6 s] done

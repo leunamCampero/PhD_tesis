@@ -1,0 +1,17 @@
+﻿[   733.6 s] Strasbourg GA                     beta 0.00: E/E0 = 0.928 (model 0.928)  12.2 min
+[   735.1 s] Strasbourg GA                     beta 0.01: E/E0 = 0.883 (model 0.883)  12.2 min
+[   735.6 s] Strasbourg GA                     beta 0.00: E/E0 = 0.966 (model 0.966)  12.2 min
+[   782.8 s] Lyon       GA                     beta 0.00: E/E0 = 0.870 (model 0.870)  13.0 min
+[   786.3 s] Lyon       GA                     beta 0.01: E/E0 = 0.687 (model 0.687)  13.0 min
+[   786.6 s] Lyon       GA                     beta 0.01: E/E0 = 0.839 (model 0.839)  13.1 min
+[   799.0 s] Lyon       GA                     beta 0.00: E/E0 = 0.941 (model 0.941)  13.3 min
+[  1198.7 s] Lyon       GA-Cluster             beta 0.00: E/E0 = 0.910 (model 0.915)  7.7 min
+[  1202.6 s] Lyon       GA-Cluster             beta 0.00: E/E0 = 0.856 (model 0.859)  7.8 min
+[  1228.5 s] Strasbourg GA-Cluster             beta 0.00: E/E0 = 0.967 (model 0.961)  7.4 min
+[  1254.7 s] Strasbourg GA-Cluster             beta 0.00: E/E0 = 0.912 (model 0.903)  7.6 min
+[  1261.6 s] Lyon       GA-Cluster             beta 0.01: E/E0 = 0.809 (model 0.816)  8.0 min
+[  1266.9 s] Lyon       GA-Cluster             beta 0.01: E/E0 = 0.707 (model 0.708)  8.0 min
+[  1376.5 s] Strasbourg GA                     beta 0.01: E/E0 = 0.757 (model 0.757)  10.7 min
+[  1485.5 s] Strasbourg GA-Cluster             beta 0.01: E/E0 = 0.805 (model 0.796)  4.8 min
+[  1489.7 s] Strasbourg GA-Cluster             beta 0.01: E/E0 = 0.759 (model 0.759)  4.8 min
+[  1490.1 s] done

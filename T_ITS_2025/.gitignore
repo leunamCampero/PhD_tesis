@@ -1,0 +1,5 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+# large legacy material, keep out of version control
+_archive_old_files/

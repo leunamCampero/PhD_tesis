@@ -1,0 +1,16 @@
+# Conda environment for the CDC 2025 paper (same environment as ECC_2025).
+#   conda env create -f environment.yml
+#   conda activate cycling-ecc
+name: cycling-ecc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=2          # the newer OD pickle was written with numpy 2
+  - scipy             # Dijkstra (scipy.sparse.csgraph)
+  - pandas
+  - networkx
+  - matplotlib
+  - pygmo             # genetic algorithm (sga), used by GAB
+  - geopandas         # only for tools/build_data.py (reads the legacy pickles)
+  - jupyterlab        # optional

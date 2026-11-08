@@ -1,0 +1,36 @@
+{
+  "demand_multiplier": 3.4853993577617484,
+  "calibration": [
+    {
+      "m": 1.0,
+      "ratio": 0.286911167804363,
+      "TTT": 758.9881474903777,
+      "iterations": 1
+    },
+    {
+      "m": 3.4853993577617484,
+      "ratio": 1.008575098154083,
+      "TTT": 2851.7781578986383,
+      "iterations": 25
+    }
+  ],
+  "peak_hour_car_trips": 37369.164906878505,
+  "UE": {
+    "TTT_veh_h": 2850.4231588918824,
+    "free_flow_TTT_veh_h": 2663.3109833775466,
+    "congestion_delay_pct": 7.025547398788734,
+    "rel_gap": 9.78492979822264e-05,
+    "iterations": 43,
+    "seconds": 31.107290983200073,
+    "cold_start_iterations": 92,
+    "cold_start_seconds": 67.07171678543091
+  },
+  "vc": {
+    "mean_loaded": 0.31621064246288977,
+    "share_arcs_above_0_8": 0.0351417004048583,
+    "share_arcs_above_1": 0.020728744939271255,
+    "max": 2.299497089987006
+  },
+  "mean_od_time_min": 4.576196852280543,
+  "share_trips_above_20_min": 0.0
+}

@@ -1,0 +1,28 @@
+﻿[    14.7 s] GW(Grenoble, Lyon CC) M=200: 0.2851  kernel 0.5579  (13 s)
+[    63.9 s] GW(Grenoble, Lyon CC) M=400: 0.3013  kernel 0.5579  (49 s)
+[   212.5 s] GW(Grenoble, Lyon CC) M=800: 0.2886  kernel 0.5579  (148 s)
+[   230.7 s] GW(Grenoble, Lyon kmeans) M=200: 0.2286  kernel 0.3615  (17 s)
+[   302.5 s] GW(Grenoble, Lyon kmeans) M=400: 0.2032  kernel 0.3615  (72 s)
+[   590.1 s] GW(Grenoble, Lyon kmeans) M=800: 0.1974  kernel 0.3615  (287 s)
+[   606.3 s] GW(Grenoble, Strasbourg CC) M=200: 0.2458  kernel 0.4511  (15 s)
+[   689.6 s] GW(Grenoble, Strasbourg CC) M=400: 0.2242  kernel 0.4511  (83 s)
+[   840.7 s] GW(Grenoble, Strasbourg CC) M=800: 0.2211  kernel 0.4511  (151 s)
+[   845.9 s] GW(Grenoble, Strasbourg kmeans) M=200: 0.2649  kernel 0.6316  (5 s)
+[   877.8 s] GW(Grenoble, Strasbourg kmeans) M=400: 0.2286  kernel 0.6316  (32 s)
+[  1102.6 s] GW(Grenoble, Strasbourg kmeans) M=800: 0.2278  kernel 0.6316  (225 s)
+[  1216.1 s]       source      target    method    M      GW  kernel_distance   seconds
+0   Grenoble        Lyon        CC  200  0.2851           0.5579   12.8205
+1   Grenoble        Lyon        CC  400  0.3013           0.5579   49.2268
+2   Grenoble        Lyon        CC  800  0.2886           0.5579  148.4111
+3   Grenoble        Lyon    kmeans  200  0.2286           0.3615   17.4751
+4   Grenoble        Lyon    kmeans  400  0.2032           0.3615   71.8167
+5   Grenoble        Lyon    kmeans  800  0.1974           0.3615  287.4671
+6   Grenoble  Strasbourg        CC  200  0.2458           0.4511   14.9668
+7   Grenoble  Strasbourg        CC  400  0.2242           0.4511   83.2600
+8   Grenoble  Strasbourg        CC  800  0.2211           0.4511  150.7919
+9   Grenoble  Strasbourg    kmeans  200  0.2649           0.6316    5.0305
+10  Grenoble  Strasbourg    kmeans  400  0.2286           0.6316   31.8967
+11  Grenoble  Strasbourg    kmeans  800  0.2278           0.6316  224.6235
+12  Grenoble    Grenoble  original  400  0.0548           0.0000       NaN
+13      Lyon  Strasbourg        CC  400  0.2544           0.1862       NaN
+[  1216.1 s] done

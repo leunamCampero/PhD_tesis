@@ -1,0 +1,15 @@
+city,y_safety,y_comfort,split
+Angers,0.42,0.484,train
+Annecy,0.448,0.552,test
+Bordeaux,0.44,0.458,test
+Chambery,0.514,0.564,test
+Dunkerque,0.488,0.524,test
+Grenoble,0.608,0.674,train
+La_Rochelle,0.566,0.608,train
+Le_Havre,0.458,0.444,train
+Lyon,0.44,0.508,train
+Nantes,0.47,0.522,train
+Paris,0.412,0.462,train
+Rennes,0.48,0.534,train
+Strasbourg,0.622,0.654,train
+Tours,0.43,0.468,train

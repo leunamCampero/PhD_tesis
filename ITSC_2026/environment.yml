@@ -1,0 +1,16 @@
+# Conda environment (same environment as ECC_2025 / CDC_2025 / ITSC_2025 / T_ITS_Special_Issue).
+#   conda env create -f environment.yml
+#   conda activate cycling-ecc
+# On Windows run the scripts from a shell where the environment is activated (or prepend
+# <env>, <env>\Library\bin and <env>\Scripts to PATH): scipy's ARPACK / MKL crash otherwise.
+name: cycling-ecc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=2
+  - scipy             # Dijkstra (scipy.sparse.csgraph), eigsh, KD-trees
+  - pandas
+  - networkx          # only to read the raw pickles
+  - scikit-learn      # k-means baseline
+  - matplotlib
